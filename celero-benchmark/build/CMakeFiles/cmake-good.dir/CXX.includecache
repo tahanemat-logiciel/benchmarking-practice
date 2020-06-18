@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/taha/celero-benchmark/main.cpp
+celero/Celero.h
+/home/taha/celero-benchmark/celero/Celero.h
+random
+-
+cmath
+-
+cstdlib
+-
+

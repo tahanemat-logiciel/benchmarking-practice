@@ -1,0 +1,3 @@
+/home/taha/logiciel-dev/build/CMakeFiles/rebuild_cache.dir
+/home/taha/logiciel-dev/build/CMakeFiles/cmake-good.dir
+/home/taha/logiciel-dev/build/CMakeFiles/edit_cache.dir

@@ -1,3 +1,0 @@
-/home/taha/hayai-benchmark/build/CMakeFiles/rebuild_cache.dir
-/home/taha/hayai-benchmark/build/CMakeFiles/cmake-good.dir
-/home/taha/hayai-benchmark/build/CMakeFiles/edit_cache.dir

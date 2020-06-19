@@ -1,3 +1,0 @@
-/home/taha/benchmark-practice/google-benchmark/build/CMakeFiles/rebuild_cache.dir
-/home/taha/benchmark-practice/google-benchmark/build/CMakeFiles/cmake-good.dir
-/home/taha/benchmark-practice/google-benchmark/build/CMakeFiles/edit_cache.dir

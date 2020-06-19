@@ -1,4 +1,4 @@
-# Install script for directory: /home/taha/celero-benchmark
+# Install script for directory: /home/taha/benchmark-practice/celero-benchmark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/taha/celero-benchmark/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/taha/benchmark-practice/celero-benchmark/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

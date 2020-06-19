@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/CeleroDemo-Simple.dir/main.cpp.o  -o CeleroDemo-Simple -lcelero 

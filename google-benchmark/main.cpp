@@ -4,7 +4,7 @@
 
 static void BM_MAX(benchmark::State& state){
 	for(auto _ : state)
-		std::string empty_string;
+		std::max(10,5);
 }
 
 BENCHMARK(BM_MAX);

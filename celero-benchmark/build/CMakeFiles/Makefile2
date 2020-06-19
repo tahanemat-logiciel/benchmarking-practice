@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/taha/celero-benchmark
+CMAKE_SOURCE_DIR = /home/taha/benchmark-practice/celero-benchmark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/taha/celero-benchmark/build
+CMAKE_BINARY_DIR = /home/taha/benchmark-practice/celero-benchmark/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/cmake-good.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/taha/celero-benchmark/build
 CMakeFiles/cmake-good.dir/all:
 	$(MAKE) -f CMakeFiles/cmake-good.dir/build.make CMakeFiles/cmake-good.dir/depend
 	$(MAKE) -f CMakeFiles/cmake-good.dir/build.make CMakeFiles/cmake-good.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/taha/celero-benchmark/build/CMakeFiles --progress-num=1,2 "Built target cmake-good"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles --progress-num=1,2 "Built target cmake-good"
 .PHONY : CMakeFiles/cmake-good.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/cmake-good.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cmake-good.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/taha/celero-benchmark/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cmake-good.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/taha/celero-benchmark/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles 0
 .PHONY : CMakeFiles/cmake-good.dir/rule
 
 # Convenience name for target.

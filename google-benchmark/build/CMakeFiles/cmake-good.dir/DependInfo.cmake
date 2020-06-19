@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/taha/logiciel-dev/main.cpp" "/home/taha/logiciel-dev/build/CMakeFiles/cmake-good.dir/main.cpp.o"
+  "/home/taha/benchmark-practice/google-benchmark/main.cpp" "/home/taha/benchmark-practice/google-benchmark/build/CMakeFiles/cmake-good.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

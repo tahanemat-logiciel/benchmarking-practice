@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/taha/celero-benchmark/build/CMakeFiles/3.11.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/3.11.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/taha/celero-benchmark/build/CMakeFiles/3.11.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/3.11.4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e4846/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e4846.dir/build.make CMakeFiles/cmTC_e4846.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4846.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e4846.dir/testCCompiler.c.o   -c /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_e4846
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4846.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e4846.dir/testCCompiler.c.o  -o cmTC_e4846 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_48989/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_48989.dir/build.make CMakeFiles/cmTC_48989.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48989.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_48989.dir/testCCompiler.c.o   -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_48989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48989.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_48989.dir/testCCompiler.c.o  -o cmTC_48989 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_acbcc/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_acbcc.dir/build.make CMakeFiles/cmTC_acbcc.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_acbcc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acbcc.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o  -o cmTC_acbcc 
+Run Build Command:"/usr/bin/gmake" "cmTC_0acf9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0acf9.dir/build.make CMakeFiles/cmTC_0acf9.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0acf9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0acf9.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o  -o cmTC_0acf9 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_acbcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccda0GQG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_acbcc /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_acbcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0acf9' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cciy11Gy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0acf9 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0acf9' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_acbcc/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_acbcc.dir/build.make CMakeFiles/cmTC_acbcc.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_acbcc]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acbcc.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o  -o cmTC_acbcc ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_0acf9/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_0acf9.dir/build.make CMakeFiles/cmTC_0acf9.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0acf9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0acf9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o  -o cmTC_0acf9 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_acbcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccda0GQG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_acbcc /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0acf9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cciy11Gy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0acf9 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccda0GQG.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciy11Gy.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_acbcc] ==> ignore
+    arg [cmTC_0acf9] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> ignore
@@ -120,7 +120,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-    arg [CMakeFiles/cmTC_acbcc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0acf9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -145,17 +145,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f7794/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f7794.dir/build.make CMakeFiles/cmTC_f7794.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f7794.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_f7794.dir/feature_tests.c.o   -c /home/taha/celero-benchmark/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f7794
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7794.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_f7794.dir/feature_tests.c.o  -o cmTC_f7794 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_62577/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_62577.dir/build.make CMakeFiles/cmTC_62577.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62577.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_62577.dir/feature_tests.c.o   -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_62577
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62577.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_62577.dir/feature_tests.c.o  -o cmTC_62577 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -165,17 +165,17 @@ gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeT
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_6a62e/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_6a62e.dir/build.make CMakeFiles/cmTC_6a62e.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6a62e.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_6a62e.dir/feature_tests.c.o   -c /home/taha/celero-benchmark/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6a62e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a62e.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_6a62e.dir/feature_tests.c.o  -o cmTC_6a62e 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_c8d11/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c8d11.dir/build.make CMakeFiles/cmTC_c8d11.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8d11.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_c8d11.dir/feature_tests.c.o   -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c8d11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8d11.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c8d11.dir/feature_tests.c.o  -o cmTC_c8d11 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -185,17 +185,17 @@ gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeT
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_5e2e9/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_5e2e9.dir/build.make CMakeFiles/cmTC_5e2e9.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5e2e9.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_5e2e9.dir/feature_tests.c.o   -c /home/taha/celero-benchmark/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5e2e9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e2e9.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_5e2e9.dir/feature_tests.c.o  -o cmTC_5e2e9 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_31d4d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_31d4d.dir/build.make CMakeFiles/cmTC_31d4d.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31d4d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_31d4d.dir/feature_tests.c.o   -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_31d4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31d4d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_31d4d.dir/feature_tests.c.o  -o cmTC_31d4d 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -203,30 +203,30 @@ gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeT
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_960ff/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_960ff.dir/build.make CMakeFiles/cmTC_960ff.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_960ff.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_960ff.dir/testCXXCompiler.cxx.o -c /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_960ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_960ff.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_960ff.dir/testCXXCompiler.cxx.o  -o cmTC_960ff 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_21e64/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_21e64.dir/build.make CMakeFiles/cmTC_21e64.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21e64.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_21e64.dir/testCXXCompiler.cxx.o -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_21e64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21e64.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_21e64.dir/testCXXCompiler.cxx.o  -o cmTC_21e64 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_545b1/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_545b1.dir/build.make CMakeFiles/cmTC_545b1.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_545b1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_545b1.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_545b1 
+Run Build Command:"/usr/bin/gmake" "cmTC_a82a5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a82a5.dir/build.make CMakeFiles/cmTC_a82a5.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a82a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a82a5.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a82a5 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -238,24 +238,24 @@ Thread model: posix
 gcc version 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_545b1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH3URTX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_545b1 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_545b1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a82a5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPCzPd3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a82a5 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a82a5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_545b1/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_545b1.dir/build.make CMakeFiles/cmTC_545b1.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_545b1]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_545b1.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_545b1 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_a82a5/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a82a5.dir/build.make CMakeFiles/cmTC_a82a5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a82a5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a82a5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a82a5 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -267,13 +267,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_545b1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH3URTX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_545b1 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a82a5' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPCzPd3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a82a5 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccH3URTX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPCzPd3.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -288,7 +288,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_545b1] ==> ignore
+    arg [cmTC_a82a5] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-    arg [CMakeFiles/cmTC_545b1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a82a5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -320,17 +320,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4a326/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4a326.dir/build.make CMakeFiles/cmTC_4a326.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4a326.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_4a326.dir/feature_tests.cxx.o -c /home/taha/celero-benchmark/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4a326
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a326.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_4a326.dir/feature_tests.cxx.o  -o cmTC_4a326 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_6c2e1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6c2e1.dir/build.make CMakeFiles/cmTC_6c2e1.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c2e1.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_6c2e1.dir/feature_tests.cxx.o -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6c2e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c2e1.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_6c2e1.dir/feature_tests.cxx.o  -o cmTC_6c2e1 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -393,17 +393,17 @@ gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeT
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_fa4d7/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_fa4d7.dir/build.make CMakeFiles/cmTC_fa4d7.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fa4d7.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_fa4d7.dir/feature_tests.cxx.o -c /home/taha/celero-benchmark/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fa4d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa4d7.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_fa4d7.dir/feature_tests.cxx.o  -o cmTC_fa4d7 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_0fa8d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0fa8d.dir/build.make CMakeFiles/cmTC_0fa8d.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0fa8d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_0fa8d.dir/feature_tests.cxx.o -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0fa8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fa8d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_0fa8d.dir/feature_tests.cxx.o  -o cmTC_0fa8d 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -466,17 +466,17 @@ gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeT
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1fa44/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1fa44.dir/build.make CMakeFiles/cmTC_1fa44.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1fa44.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_1fa44.dir/feature_tests.cxx.o -c /home/taha/celero-benchmark/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1fa44
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa44.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_1fa44.dir/feature_tests.cxx.o  -o cmTC_1fa44 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_383fc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_383fc.dir/build.make CMakeFiles/cmTC_383fc.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_383fc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_383fc.dir/feature_tests.cxx.o -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_383fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_383fc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_383fc.dir/feature_tests.cxx.o  -o cmTC_383fc 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -539,17 +539,17 @@ gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeT
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a9a18/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_a9a18.dir/build.make CMakeFiles/cmTC_a9a18.dir/build
-gmake[1]: Entering directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a9a18.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_a9a18.dir/feature_tests.cxx.o -c /home/taha/celero-benchmark/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a9a18
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9a18.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_a9a18.dir/feature_tests.cxx.o  -o cmTC_a9a18 
-gmake[1]: Leaving directory '/home/taha/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_b69b9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b69b9.dir/build.make CMakeFiles/cmTC_b69b9.dir/build
+gmake[1]: Entering directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b69b9.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b69b9.dir/feature_tests.cxx.o -c /home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b69b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b69b9.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b69b9.dir/feature_tests.cxx.o  -o cmTC_b69b9 
+gmake[1]: Leaving directory '/home/taha/benchmark-practice/celero-benchmark/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

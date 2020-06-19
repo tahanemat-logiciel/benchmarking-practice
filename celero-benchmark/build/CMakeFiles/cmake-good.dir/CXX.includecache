@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/taha/celero-benchmark/main.cpp
+/home/taha/benchmark-practice/celero-benchmark/main.cpp
 celero/Celero.h
-/home/taha/celero-benchmark/celero/Celero.h
+/home/taha/benchmark-practice/celero-benchmark/celero/Celero.h
 random
 -
 cmath

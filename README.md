@@ -1,4 +1,4 @@
-# benchmarking-practice
+# benchmarks
 Tested out different benchmarking libraries
 
 commands:
